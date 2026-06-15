@@ -1,3 +1,65 @@
-<p>Hello, World!</p>
-<p>Welcome to our website!</p>
-<p>Feel free to explore our content.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Annual Tech Meetup 2026</h1>
+    <p>Where developers gather to pretend their side projects are "almost ready"</p>
+    <nav>
+      <ul>
+        <a href="#about"><li>About</li></a>
+        <a href="#schedule"><li>Schedule</li></a>
+        <a href="#gallery"><li>Gallery</li></a>
+        <a href="#rsvp"><li>RSVP</li></a>
+      </ul>
+   </nav>
+  </header>
+  <main>
+    <section id="About">
+         <h2>About the Event</h2>
+      <p>Join us for a full day of talks, workshop, and networking with people who will absolutely say "i'll push it to GITHUB later" and nevr do it</p>
+      
+      <p>
+        Location: <a href="https://chaindustry.io" target="_blank">Chaindustry.io</a> <br> Date: 20 July 2026 <br> Time: 10:00 AM - 4:00 PM</p>
+
+        <a href="https://chaindustry.io">View official event <details></a>
+      </p>
+    </section>
+    <section id="schedule">
+        <h2>schedule</h2>
+        <ul>
+            <li>10:00 Opening remarks</li>
+            <li>11:00 "Why your bug is actually a feature"</li>
+            <li>13:00 Lunch break</li>
+            <li>14:00 Hands_on worrkshop</li>
+            <li>16:00 Closing session</li>
+        </ul>
+    </section> 
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="https://www.opusresourcing.com/wp-content/uploads/2024/01/campaign-creators-gMsnXqILjp4-unsplash-scaled.jpg" 
+        alt="People coding at the Tech event" width ="200" height="200">
+    </section>
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <form>
+            <label for="name">Full Name</label> <br> 
+            <input type="text" id="name" placeholder="Name" required> <br>
+            <label for="email">Email</label> <br>
+            <input type="email" id="email" placeholder="Email" required> <br>
+            <p> Will you be attending?</p>
+            <select id="attendance" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+                <option value="Maybe">Maybe</option>
+            <p>message the organizers</p>  
+            <input type="textarea" id="Textarea" placeholder required>  
+            </select>
+        </form>
+    </section>
+</body>
+</html>
